@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+# Do not add raw/restricted microdata to this repository.
+*.dta
+*.sav
+*.zip
+# Local model artifacts are excluded until publication terms are reviewed.
+artifacts/
+private_data/
+Microdata/
